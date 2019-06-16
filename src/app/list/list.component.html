@@ -1,0 +1,3 @@
+<div *ngFor="let item of list">
+  <app-item (removeItemEvent)="removeItem($event)" [item]="item"></app-item>
+</div> 
